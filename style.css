@@ -1,3 +1,9 @@
-.header-pic {
+/* .header-pic {
     max-width: 50rem;
+    width: 100%;
+    height: auto;
+} */
+
+body {
+    font-family: Georgia, serif;
 }
