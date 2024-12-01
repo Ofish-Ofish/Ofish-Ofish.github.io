@@ -15,3 +15,19 @@ body {
 h1 {
     font-family: "Montserrat", sans-serif;
 }
+
+::-webkit-scrollbar {
+    width: 10px
+  }
+
+::-webkit-scrollbar-track {
+    background-color: #212529;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(145deg, #fcc419, #ff6625  ,#e71919);
+  }
+  
+ ::-webkit-scrollbar-thumb:hover {
+    background: ; 
+}
