@@ -7,3 +7,11 @@
 body {
     font-family: Georgia, serif;
 }
+
+.hero-img {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/hero.jpg);
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+}
