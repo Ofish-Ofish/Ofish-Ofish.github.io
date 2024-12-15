@@ -1,8 +1,7 @@
-/* .header-pic {
-    max-width: 50rem;
-    width: 100%;
-    height: auto;
-} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 body {
     font-family: Georgia, serif;
@@ -14,10 +13,10 @@ h1, h2, h3, h4, h5, h6, p {
     
 }
 .hero-img {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/hero.jpg);
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
 }
 
