@@ -7,18 +7,20 @@ body {
     font-family: Georgia, serif;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     
 }
+
+h1, h2, h3, h4, h5, h6 , li{
+    font-family: "Montserrat", sans-serif;
+}
+
 .hero-img {
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/hero.jpg);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", sans-serif;
-}
 
 
 ::-webkit-scrollbar {
